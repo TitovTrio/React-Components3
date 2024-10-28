@@ -1,0 +1,74 @@
+.container {
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+	background-color: rgb(224, 224, 224);
+	border: 1px solid black;
+	border-radius: 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	font-size: large;
+}
+
+.screen {
+	text-align: right;
+	padding: 3%;
+	margin: 15px 5px;
+	min-height: 50px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: white;
+	font-weight: 500;
+	font-size: x-large;
+}
+
+.buffer {
+	color: rgba(0, 0, 0, 0.37);
+	font-size: small;
+}
+.operator {
+	color: rgb(0, 0, 0);
+	font-size: x-large;
+	float: left;
+}
+
+.numbGreen {
+	color: rgb(7, 82, 7);
+}
+
+.funcBlock {
+	display: grid;
+	gap: 5px;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 15px 10px;
+}
+
+.numsBlock {
+	flex-wrap: wrap;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 15px 10px;
+}
+
+.button {
+	font-size: 18px;
+	transition: background-color 0.15s ease;
+}
+
+.funcButton {
+	color: rgb(170, 74, 5);
+}
+
+.numsButton {
+	color: rgb(104, 119, 253);
+}
+
+.numsButton:hover {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+}
+
+.funcButton:hover {
+	background-color: rgba(255, 136, 0, 0.349);
+}
